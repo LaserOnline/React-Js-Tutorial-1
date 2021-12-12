@@ -1,0 +1,32 @@
+
+.App-grid
+{
+  display: grid;
+    grid-template-columns: 1fr 1fr; /* 1fr คือ 1 รูป */
+    column-gap: 10px; 
+    row-gap: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-size: 15px;
+    color: white;
+}
+
+.App-Background
+{
+  background-color: #000000e0;
+  height: auto;
+}
+
+.app-section
+{
+  padding: 30px;
+}
+
+.app-container
+{
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
